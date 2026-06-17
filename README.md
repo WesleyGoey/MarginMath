@@ -25,7 +25,7 @@ MarginMath is a specialized command-line application designed to help merchants 
 - Pricing Strategy Module: Implemented a margin calculator that automatically computes the ideal customer selling price based on raw costs and targeted net profit margins.
 
 ### 💾 Data Persistence & Management
-- Flat-File Persistence: Engineered a lightweight data persistence layer using localized .txt files to serialize, store, and retrieve product data, ensuring records are saved across terminal sessions.
+- Flat-File Persistence: Engineered a lightweight data persistence layer using localized .txt files to store and retrieve product data, ensuring records are saved across terminal sessions.
 - Product CRUD Operations: Programmed a complete inventory system to Create, Read, Update, and Delete product and raw material listings directly via command-line inputs.
 
 ### 🔐 Gateway & Validation Logic
@@ -39,4 +39,4 @@ MarginMath is a specialized command-line application designed to help merchants 
 - Language: Java
 - Interface: Terminal (CLI)
 - Storage Engine: Flat File Storage (.txt)
-- Paradigm: Procedural & Object-Oriented Programming Foundations
+- Paradigm: Procedural & Algorithmic Logic
