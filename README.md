@@ -1,18 +1,42 @@
-## Getting Started
+# 🧮 MarginMath - Financial Logic & Profit Optimization Tool
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 
-## Folder Structure
+MarginMath is a specialized command-line application designed to help merchants and small business owners simplify complex commercial and financial calculations. Developed as a final project for an early engineering foundation, the application provides a reliable terminal-based environment to evaluate operational costs, optimize profit margins, and manage product inventory.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📌 Project Context & Metadata
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| Attribute | Details |
+| :--- | :--- |
+| 🎓 Institution | Universitas Ciputra Surabaya |
+| 🚀 Academic Timeline | Semester 1 - Algorithm & Programming Final Project |
+| 📅 Development Period | November 2024 - January 2025 |
+| 👥 Team Size | 2 Developers |
+| 💻 Interface | Terminal (CLI) |
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🚀 Technical Features & Logic
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 📊 Financial Calculation Engine
+- Core Metrics Suite: Built precise mathematical algorithms to accurately determine Cost of Goods Sold (COGS), Break-Even Point (BEP) in value, and Break-Even Quantity (BEQ) in units.
+- Pricing Strategy Module: Implemented a margin calculator that automatically computes the ideal customer selling price based on raw costs and targeted net profit margins.
+
+### 💾 Data Persistence & Management
+- Flat-File Persistence: Engineered a lightweight data persistence layer using localized .txt files to serialize, store, and retrieve product data, ensuring records are saved across terminal sessions.
+- Product CRUD Operations: Programmed a complete inventory system to Create, Read, Update, and Delete product and raw material listings directly via command-line inputs.
+
+### 🔐 Gateway & Validation Logic
+- Secure Access Gate: Integrated a terminal-based login authentication flow to protect financial record configurations from unauthorized edits.
+- Data Type Validation: Enforced strict input validation and parsing checks on user-entered values to guarantee computational integrity and eliminate operational math errors.
+
+---
+
+## 💻 Tech Stack
+
+- Language: Java
+- Interface: Terminal (CLI)
+- Storage Engine: Flat File Storage (.txt)
+- Paradigm: Procedural & Object-Oriented Programming Foundations
